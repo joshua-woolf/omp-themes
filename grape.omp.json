@@ -85,7 +85,7 @@
           "background": "#ddee33",
           "foreground": "#000000",
           "style": "diamond",
-          "template": " {{ if .SSHSession }}\uf817 {{ end }}{{ .UserName }}@{{ .HostName }} ",
+          "template": " {{ if .WSL }}\uebc6 {{ end }}{{ if .SSHSession }}\uf817 {{ end }}{{ .UserName }}@{{ .HostName }} ",
           "type": "session"
         }
       ],
